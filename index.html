@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>泰安露營</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {  
+            margin: 0;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        .clearfix {
+            clear: both;
+        }
+        #bg_banner {
+            height: 70vh;
+            background-image: url('1720.jpg');
+            background-size: cover;
+            background-position-y: 100%;
+            background-attachment: fixed;
+        }
+        #bg_banner .container {
+            height: 70vh;
+            position: relative;
+        }
+        #bg_banner .title {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            color: rgb(2, 177, 177);
+            font-size: 60px;
+            line-height: 75px;
+            letter-spacing: 15px;
+            text-shadow: 3px 3px 5px (207, 204, 150);
+            background-color: #008888(0, 0, 0, 0.6);
+            padding: 15px 30px;
+        }
+         #main_nav {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #008888;
+        }
+        #main_nav a.nav_link {
+            color: #FFFFFF;
+            text-decoration: none;
+            display: block;
+            padding: 15px 30px;
+            float: left;
+        }
+        #section_1 {
+            background-color: #FFFFFF;
+            padding: 120px 0;
+        }
+        #section_1 .left_box {
+            float: left;
+            width: 50%;
+            padding: 0 20px;
+        }
+        #section_1 .left_box img {
+            width: 100%;
+        }
+        #section_2 {
+            background-color: rgb(51, 51, 51);
+            padding: 120px 0;
+        }
+        #section_2 .left_box {
+            float: left;
+            width: 50%;
+            padding: 0 20px;
+            color: white;
+        }
+        #section_2 .left_box img {
+            width: 100%;
+        }
+        #section_3 {
+            background-color: white;
+            padding: 80px 0;
+        }
+        #section_3 .left_box {
+            float: left;
+            width: 33.33%;
+            padding: 0 20px;
+        }
+        #section_3 .left_box img {
+            width: 100%;
+        }
+        #section_4 {
+            background-color: #333;
+            padding: 80px 0;
+            color: white;
+        }
+        #section_4 h1 {
+            text-align: center;
+        }
+         #section_4 p {
+            -webkit-column-count: 3;
+            /* Chrome, Safari, Opera */
+            -moz-column-count: 3;
+            /* Firefox */
+            column-count: 3;
+
+            -webkit-column-gap: 40px;
+            /* Chrome, Safari, Opera */
+            -moz-column-gap: 40px;
+            /* Firefox */
+            column-gap: 40px;
+        }
+        #section_5 {
+            height: 50vh;
+            background-image: url('0066.jpg');
+            background-size: cover;
+            background-position-y:50%;
+            background-attachment: fixed;
+            position: relative;
+        }
+        #section_5 .overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            transition: 1.3s;
+        }
+        #section_5 .overlay h1 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 50px;
+            opacity: 1;
+            transition: 1.3s;
+        }
+        #section_5 .overlay:hover {
+            background-color: rgba(0, 0, 0, 0);
+        }
+         #section_5 .overlay:hover h1 {
+            opacity: 0;
+        }
+        #section_6 h1 {
+            text-align: center;
+        }
+        #section_6 .left_box {
+            float: left;
+            width: 50%;
+            height: 50vh;
+            background-image: url('0044.jpg');
+            background-size: cover;
+            padding: 100px;
+            letter-spacing: 80px;
+            color:#FFFFFF;
+            font-size: 50px;
+        }
+        #section_6 .right_box {
+            float: left;
+            width: 50%;
+            height: 50vh;
+            background-image: url('0011.jpg');
+            background-size: cover;
+            padding: 100px;
+            font-size: 50px;
+            letter-spacing: 80px;
+            color:#FFFFFF
+
+        }
+        footer {
+            font-size: 12px;
+            background-color: #333;
+            color: #999;
+            padding: 8px 0;
+            text-align: center;
+        }
+
+       
+
+
+    </style>
+</head>
+
+<body>
+ 
+    <nav id="sub_nav"></nav>
+
+ 
+    <section id="bg_banner">
+        <div class="container">
+            <h1 class="title">
+                泰安露營趴趴走<br>
+                
+            </h1>
+        </div>
+    </section>
+
+  
+    <nav id="main_nav">
+        <div class="container">
+            <a class="nav_link" href="#section_1">看見泰安</a>
+            <a class="nav_link" href="#section_2">露營區地圖</a>
+            <a class="nav_link" href="#section_3">露營推薦</a>
+            <a class="nav_link" href="#section_4">露營聯絡</a>
+            <a class="nav_link" href="#section_5">關於</a>
+           
+            <div class="clearfix"></div>
+        </div>
+    </nav>
+
+
+    <section id="section_1">
+        <div class="container">
+            <div class="left_box">
+                <img src="000.jpg" alt="">   
+            </div>
+            <div class="left_box">
+                <h1>原民竹筒飯</h1>
+                <p>
+                    泰雅美食原住民好吃十大之一，原民竹筒飯。特別又美味讓人無法忘懷的好味道！
+                </p>
+                <p>
+                    竹筒飯是原住民族料理米食的一種方式，其起源係源自於早期原住民族要上山打獵，
+                    考量在山上所需之食物補給，因而發明這種保存容易又攜帶方便的料理方式，即現在所謂的竹筒飯，
+                    以作為上山打獵時充飢之用，另外傳統原住民族慶典活動中也會出現竹筒飯這道經典料理，
+                    你會發現至今仍可以在許多原住民族的觀光景點中見到竹筒飯。
+                    由於民俗文化背景不同、口味差異、以及當地盛產食材等諸多因素，
+                    在不同地區製作竹筒飯所包的餡料種類變化很多，例如以口味區分，
+                    涵蓋甜味及鹹味兩種做法。 
+                    使用桂竹製作竹筒飯的效果最棒，這是因為桂竹內壁有一層竹膜，竹筒飯經過燜燒之後，竹膜會包著竹筒內的飯，
+                    很容易整個撕下來為什麼有那麼多的人喜歡吃竹筒飯呢?當然是因為竹筒飯在悶燒時會吸收竹子的香味，
+                    燒熟的飯就有一股令人垂涎的香味，吃的時候連著竹壁的內膜一起食用，風味絕佳。
+                    在花東地區原住民稱竹筒飯為「德魯固」，且傳統的「德魯固」是不添加任何佐料，僅放入糯米及水。吃的時候可以充分享受竹子的清香，
+                    也可以沾著甜辣醬或麵茶粉食用，各具特色。而改良型的竹筒飯，也可加直接加進各種佐料於竹筒中一起悶燒，如肉、魚丸、香菇等，
+                    但最好先將材料剁碎後再混入米中，風味會更好。依製作過程的不同，竹筒飯可用火烤及蒸煮兩種，烏來鄉內大多以蒸煮方式為主，
+                    有幾家原住民小吃店使用火烤方式製作，別有一番風味。  
+                    竹　筒　飯鋸下當地生產的桂竹，洗淨後，裝入七分滿的糯米，再倒入八分滿的水，上面再用一片可以吃的菜葉塞住洞口，然後將竹筒飯放在火邊燒烤，
+                    烤至桂竹由綠色轉變為淡褐色，
+                    竹子裡頭的水由滋滋作響的起泡到收乾，
+                    即可食用。請小心剖開，竹筒內有一層竹膜，會將飯緊緊的包住，保證吃起來順手又順口，既香且Q；最重要的是，還有一股竹子的清香味，是一道非常適合在野外烹飪的方便佳餚。
+  
+ 
+
+ 
+                </p>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <section id="section_3">
+        <div class="container">
+            <div class="left_box">
+                <img src="0055.jpg"
+                    alt="">
+                <p>
+                    夜晚適合看星星的露營區，推薦各位來到這一間，白天外圍環境風景美，到了夜深，更是美的呢!
+                </p>
+            </div>
+            <div class="left_box">
+                <img src="02.jpg"
+                    alt="">
+                <p>
+                    在草地上赤裸著腳丫，跑啊跑啊，適合打打羽球，休閒下午適合親子呢!
+                </p>
+            </div>
+            <div class="left_box">
+                <img src="0033.jpg" alt="">
+                <h1>大推薦之一</h1>
+                <p>
+                    這一間露營區，照訪著異國風情為，濃濃的外國氣氛，也引進了非常多的國外人唷!
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    
+
+
+    <section id="section_5">
+        <div class="overlay">
+            <h1>11</h1>
+        </div>
+    </section>
+
+
+    <section id="section_6">
+        <div class="left_box">
+            <h1>泰安露營哪裡好玩呢?</h1>
+          
+        </div>
+        <div class="right_box">
+            <h1>泰安露營好好玩</h1>
+            <p></p>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>信箱：aa0903175820@yahoo.com.tw 連絡電話：0900-000-000 周小姐</p>
+            
+        </div>
+    </footer>
+</body>
+
+</html>
